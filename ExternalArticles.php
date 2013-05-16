@@ -23,6 +23,7 @@
  *
  * @ingroup Extensions
  * @author Nathan Perry <externalarticles@nateperry.org>
+ * @author Sam Wilson <sam@samwilson.id.au>
  * @version 0.1.3
  * @link http://www.nateperry.org/wiki/External_Articles
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0
@@ -52,6 +53,7 @@ define( 'MEDIAWIKI_EXTERNALARTICLES', true );
  
 $wgExtensionCredits['other'][] = array
 (
+    'path'           => __FILE__,
     'name'           => 'External Articles',
     'description'    => 'Preloads source from external articles.',
     //'descriptionmsg' => 'externalarticles-description-msg',
@@ -86,8 +88,8 @@ function externalarticles_EditFormPreloadText(&$text, &$title)
     // $title: title of new page (Title Object)
  
     global $wgOut, $eagRules;
-    $pagename = $title->getEscapedText();
-    $url = $eagRules['url'] . urlencode( $pagename ) . '&action=raw';
+    $pagename = $title->getPrefixedURL();
+    $url = $eagRules['url'] . $pagename . '&action=raw';
     $ismatch = preg_match( $eagRules['rule'], $pagename ) > 0;
  
     if ( defined( 'EXTERNALARTICLES_DEBUG' ) )
@@ -104,38 +106,25 @@ function externalarticles_EditFormPreloadText(&$text, &$title)
  
     if ( $eagRules['onpreload'] && $ismatch && empty($text) )
     {
-        // Initialize the cURL session
-        $ch = curl_init();
- 
-        // Set the URL of the page or file to download.
-        curl_setopt($ch, CURLOPT_URL,$url);
- 
-        // Ask cURL to return the contents in a variable
-        // instead of simply echoing them to the browser.
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
- 
-        // Execute the cURL session
-        $url_text = curl_exec ($ch);
- 
-        // Close cURL session
-        curl_close ($ch);
- 
-        if ( !empty( $url_text ) )
-        {
-            $text = $url_text;
-        }
-        else
+        $options = array(
+            'followRedirects' => true,
+        );
+        $httpRequest = MWHttpRequest::factory( $url, $options );
+        $status = $httpRequest->execute();
+        if ( ! $status->isOK() )
         {
             if ( defined( 'EXTERNALARTICLES_DEBUG' ) )
             {
-                $wgOut->addWikiText( "Failed to fetch external page.<br />" );
+                $wgOut->addWikiText( "Failed to fetch external page: " . $status->getWikiText() );
             }
+            return false;
         }
+        $text = $httpRequest->getContent();
+
         return true;
+
     }
-    else
-    {
-        return false;
-    }
+    return true;
+
 }
-?>
+
