@@ -4,8 +4,7 @@
  * 
  * The ExternalArticles extension fetches pages from a remote wiki.
  * 
- * Copyright (C) 2009 Nathan Perry <nate perry 333 at g mail dot com>
- * http://www.nateperry.org/
+ * Copyright (C) 2009-2013 the authors listed below.
  * 
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -26,9 +25,9 @@
  * @author Nathan Perry <externalarticles@nateperry.org>
  * @author Alvinos http://www.mediawiki.org/wiki/User:Alvinos
  * @author Sam Wilson <sam@samwilson.id.au>
- * @version 0.1.3
+ * @version 0.1.4
  * @link http://www.nateperry.org/wiki/External_Articles
- * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0
+ * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License
  * @file
  */
 /**
@@ -55,8 +54,8 @@ $wgExtensionCredits['other'][] = array(
 	'name' => 'External Articles',
 	'description' => 'Preloads source from external articles.',
 	//'descriptionmsg' => 'externalarticles-description-msg',
-	'version' => '0.1.3', // version date 2010-03-05
-	'author' => '[mailto:externalarticles@nateperry.org Nathan Perry]',
+	'version' => '0.1.4', // version date 2013-05-31
+	'author' => 'Nathan Perry, Alvinos, and Sam Wilson',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:ExternalArticles'
 );
 
