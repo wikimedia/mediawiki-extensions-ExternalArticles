@@ -43,11 +43,8 @@ EOT;
 }
 
 /**
- * Initialize variables
+ * Extension setup.
  */
-define( 'MEDIAWIKI_EXTERNALARTICLES', true );
-//define( 'EXTERNALARTICLES_DEBUG', true );
-
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'External Articles',
@@ -56,6 +53,8 @@ $wgExtensionCredits['other'][] = array(
 	'author' => array( 'Nathan Perry', 'Alvinos', 'Sam Wilson' ),
 	'url' => 'http://www.mediawiki.org/wiki/Extension:ExternalArticles'
 );
+$wgExtensionMessagesFiles['ExternalArticles'] = dirname( __FILE__ ) . '/ExternalArticles.i18n.php';
+$wgHooks['EditFormPreloadText'][] = 'ExternalArticles_EditFormPreloadText';
 
 $wgMessagesDirs['ExternalArticles'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['ExternalArticles'] = __DIR__ . '/ExternalArticles.i18n.php';
@@ -73,7 +72,6 @@ if ( !isset( $eagRules ) || is_null( $eagRules ) ) {
 	// @todo: validate $eagRules URL's, etc...
 }
 
-$wgHooks['EditFormPreloadText'][] = 'ExternalArticles_EditFormPreloadText';
 
 /**
  * Preload text from a remote wiki into the edit form. Called when edit page for
@@ -112,6 +110,7 @@ function ExternalArticles_EditFormPreloadText( &$text, &$title ) {
 			}
 			return false;
 		}
+		$wgOut->wrapWikiMsg('<div class="success">$1</div>', array('externalarticles-article-loaded', $url));
 		$text = $httpRequest->getContent();
 
 		return true;
