@@ -52,12 +52,13 @@ define( 'MEDIAWIKI_EXTERNALARTICLES', true );
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'External Articles',
-	'description' => 'Preloads source from external articles.',
-	//'descriptionmsg' => 'externalarticles-description-msg',
+	'descriptionmsg' => 'externalarticles-desc',
 	'version' => '0.1.4', // version date 2013-05-31
-	'author' => 'Nathan Perry, Alvinos, and Sam Wilson',
+	'author' => array( 'Nathan Perry', 'Alvinos', 'Sam Wilson' ),
 	'url' => 'http://www.mediawiki.org/wiki/Extension:ExternalArticles'
 );
+
+$wgExtensionMessagesFiles['ExternalArticles'] = __DIR__ . '/ExternalArticles.i18n.php';
 
 // todo: change this so each setting is set to it's default if it is not defined.
 //       Currently, if anything is overridden, all must be defined.
