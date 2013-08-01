@@ -19,3 +19,9 @@ $messages['qqq'] = array(
 	'externalarticles-desc' => '{{desc|name=External Articles|url=http://www.mediawiki.org/wiki/Extension:ExternalArticles}}',
 );
 
+/** German (Deutsch)
+ * @author Metalhead64
+ */
+$messages['de'] = array(
+	'externalarticles-desc' => 'Ermöglicht das Vorladen von Quellen aus externen Seiten',
+);
