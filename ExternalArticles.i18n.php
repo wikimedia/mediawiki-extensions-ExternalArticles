@@ -21,6 +21,13 @@ $messages['qqq'] = array(
 "source" refers "source wikitext code".',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'externalarticles-desc' => "Precarga'l códigu fonte dende páxines esternes",
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
