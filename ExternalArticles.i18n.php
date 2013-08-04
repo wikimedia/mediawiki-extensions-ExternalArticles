@@ -28,6 +28,13 @@ $messages['ast'] = array(
 	'externalarticles-desc' => "Precarga'l códigu fonte dende páxines esternes",
 );
 
+/** Breton (brezhoneg)
+ * @author Y-M D
+ */
+$messages['br'] = array(
+	'externalarticles-desc' => 'Rakkargañ a ra ar vammenn adalek pajennoù diavaez',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
