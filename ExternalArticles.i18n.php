@@ -83,3 +83,10 @@ $messages['mk'] = array(
 $messages['roa-tara'] = array(
 	'externalarticles-desc' => 'Careche apprime le sorgende da le pàggene de fore',
 );
+
+/** Ukrainian (українська)
+ * @author Andriykopanytsia
+ */
+$messages['uk'] = array(
+	'externalarticles-desc' => 'Попередньо завантажує джерело від зовнішніх сторінок',
+);
