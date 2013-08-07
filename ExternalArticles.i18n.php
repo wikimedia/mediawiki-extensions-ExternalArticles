@@ -77,6 +77,13 @@ $messages['mk'] = array(
 	'externalarticles-desc' => 'Претвчитува извор од надворешни страници',
 );
 
+/** Marathi (मराठी)
+ * @author V.narsikar
+ */
+$messages['mr'] = array(
+	'externalarticles-desc' => 'बाह्य पानांवरील पूर्वभारण स्रोत',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
