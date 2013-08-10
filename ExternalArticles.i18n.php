@@ -70,6 +70,13 @@ $messages['ja'] = array(
 	'externalarticles-desc' => '外部ページのソースを先読みする',
 );
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'externalarticles-desc' => 'Lueden am Viraus vu Quelle vun externe Säiten',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
