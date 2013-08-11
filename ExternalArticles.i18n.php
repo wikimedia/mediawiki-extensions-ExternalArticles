@@ -88,7 +88,7 @@ $messages['mk'] = array(
  * @author V.narsikar
  */
 $messages['mr'] = array(
-	'externalarticles-desc' => 'बाह्य पानांवरील पूर्वभारण स्रोत',
+	'externalarticles-desc' => 'बाह्य पानांवरील स्रोत पूर्वभारण करते',
 );
 
 /** tarandíne (tarandíne)
