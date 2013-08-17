@@ -91,6 +91,13 @@ $messages['mr'] = array(
 	'externalarticles-desc' => 'बाह्य पानांवरील स्रोत पूर्वभारण करते',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Fúlvio
+ */
+$messages['pt-br'] = array(
+	'externalarticles-desc' => 'Pré-carrega códigos-fonte de páginas externas',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
