@@ -70,6 +70,13 @@ $messages['ja'] = array(
 	'externalarticles-desc' => '外部ページのソースを先読みする',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'externalarticles-desc' => '바깥 문서에서 원본 미리 불러오기',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
