@@ -98,6 +98,13 @@ $messages['mr'] = array(
 	'externalarticles-desc' => 'बाह्य पानांवरील स्रोत पूर्वभारण करते',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'externalarticles-desc' => 'Precarga la font dempuèi de paginas extèrnas',
+);
+
 /** Brazilian Portuguese (português do Brasil)
  * @author Fúlvio
  */
