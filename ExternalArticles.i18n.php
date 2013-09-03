@@ -63,6 +63,13 @@ $messages['gl'] = array(
 	'externalarticles-desc' => 'Precarga a fonte desde páxinas externas',
 );
 
+/** Italian (italiano)
+ * @author Gianfranco
+ */
+$messages['it'] = array(
+	'externalarticles-desc' => 'Precarica il codice sorgente da pagine esterne',
+);
+
 /** Japanese (日本語)
  * @author Shirayuki
  */
