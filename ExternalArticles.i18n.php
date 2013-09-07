@@ -84,6 +84,13 @@ $messages['ko'] = array(
 	'externalarticles-desc' => '바깥 문서에서 원본 미리 불러오기',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'externalarticles-desc' => 'Quälletäxte vun Sigge vun ußerhallef vöraf laade.',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
