@@ -35,6 +35,13 @@ $messages['br'] = array(
 	'externalarticles-desc' => 'Rakkargañ a ra ar vammenn adalek pajennoù diavaez',
 );
 
+/** Welsh (Cymraeg)
+ * @author Lloffiwr
+ */
+$messages['cy'] = array(
+	'externalarticles-desc' => 'Yn gosod testun ar ffurf cystrawen wici yn y blwch golygu wrth ei fewnforio o dudalennau allanol.',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
