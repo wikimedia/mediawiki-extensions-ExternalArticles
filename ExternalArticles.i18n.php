@@ -147,6 +147,13 @@ $messages['roa-tara'] = array(
 	'externalarticles-desc' => 'Careche apprime le sorgende da le pàggene de fore',
 );
 
+/** Russian (русский)
+ * @author Okras
+ */
+$messages['ru'] = array(
+	'externalarticles-desc' => 'Предварительно загружает источник с внешних страниц',
+);
+
 /** Ukrainian (українська)
  * @author Andriykopanytsia
  */
