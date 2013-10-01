@@ -160,3 +160,10 @@ $messages['ru'] = array(
 $messages['uk'] = array(
 	'externalarticles-desc' => 'Попередньо завантажує джерело від зовнішніх сторінок',
 );
+
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'externalarticles-desc' => 'Tải trước mã nguồn từ trang bên ngoài',
+);
