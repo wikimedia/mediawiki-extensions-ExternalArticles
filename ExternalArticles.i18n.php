@@ -167,3 +167,10 @@ $messages['uk'] = array(
 $messages['vi'] = array(
 	'externalarticles-desc' => 'Tải trước mã nguồn từ trang bên ngoài',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-hans'] = array(
+	'externalarticles-desc' => '从外部页面预加载源',
+);
