@@ -154,6 +154,13 @@ $messages['ru'] = array(
 	'externalarticles-desc' => 'Предварительно загружает источник с внешних страниц',
 );
 
+/** Swedish (svenska)
+ * @author Ainali
+ */
+$messages['sv'] = array(
+	'externalarticles-desc' => 'Förladdar källtext från externa sidor',
+);
+
 /** Ukrainian (українська)
  * @author Andriykopanytsia
  */
