@@ -56,6 +56,13 @@ $messages['es'] = array(
 	'externalarticles-desc' => 'Precarga código fuente proveniente de páginas externas',
 );
 
+/** Persian (فارسی)
+ * @author Ebraminio
+ */
+$messages['fa'] = array(
+	'externalarticles-desc' => 'پیش بارگیری مبدأ از صفحه‌های خارجی',
+);
+
 /** French (français)
  * @author Gomoko
  */
