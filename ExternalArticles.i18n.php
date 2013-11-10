@@ -84,6 +84,13 @@ $messages['ia'] = array(
 	'externalarticles-desc' => 'Precarga le codice fonte ab paginas externe',
 );
 
+/** Iloko (Ilokano)
+ * @author Lam-ang
+ */
+$messages['ilo'] = array(
+	'externalarticles-desc' => 'Agisakbay nga agikarga ti taudan manipud kadagiti akin-ruar a panid',
+);
+
 /** Italian (italiano)
  * @author Gianfranco
  */
