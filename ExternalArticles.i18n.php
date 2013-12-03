@@ -49,6 +49,13 @@ $messages['de'] = array(
 	'externalarticles-desc' => 'Ermöglicht das Vorladen von Quellen aus externen Seiten',
 );
 
+/** Lower Sorbian (dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'externalarticles-desc' => 'Zacytujo žrědła z eksternych bokow doprědka',
+);
+
 /** Spanish (español)
  * @author Fitoschido
  */
@@ -75,6 +82,13 @@ $messages['fr'] = array(
  */
 $messages['gl'] = array(
 	'externalarticles-desc' => 'Precarga a fonte desde páxinas externas',
+);
+
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'externalarticles-desc' => 'Začituje žórła z eksternych stronow doprědka',
 );
 
 /** Interlingua (interlingua)
@@ -138,6 +152,13 @@ $messages['mk'] = array(
  */
 $messages['mr'] = array(
 	'externalarticles-desc' => 'बाह्य पानांवरील स्रोत पूर्वभारण करते',
+);
+
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'externalarticles-desc' => "Laadt broncode van externe pagina's",
 );
 
 /** Occitan (occitan)
