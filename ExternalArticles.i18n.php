@@ -84,6 +84,13 @@ $messages['gl'] = array(
 	'externalarticles-desc' => 'Precarga a fonte desde páxinas externas',
 );
 
+/** Hebrew (עברית)
+ * @author Yona b
+ */
+$messages['he'] = array(
+	'externalarticles-desc' => 'טעינת דף מקור ודפים חיצוניים',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
