@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Raymond",
-            "Shirayuki"
-        ]
-    },
-    "externalarticles-desc": "{{desc|name=External Articles|url=http://www.mediawiki.org/wiki/Extension:ExternalArticles}}\n\"source\" refers \"source wikitext code\"."
+	"@metadata": {
+		"authors": [
+			"Raymond",
+			"Shirayuki"
+		]
+	},
+	"externalarticles-desc": "{{desc|name=External Articles|url=http://www.mediawiki.org/wiki/Extension:ExternalArticles}}\n\"source\" refers \"source wikitext code\"."
 }

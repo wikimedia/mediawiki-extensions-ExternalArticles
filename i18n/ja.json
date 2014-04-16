@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Shirayuki"
-        ]
-    },
-    "externalarticles-desc": "外部ページのソースを先読みする"
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"externalarticles-desc": "外部ページのソースを先読みする"
 }

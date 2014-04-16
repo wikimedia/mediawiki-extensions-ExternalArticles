@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Okras"
-        ]
-    },
-    "externalarticles-desc": "Предварительно загружает источник с внешних страниц"
+	"@metadata": {
+		"authors": [
+			"Okras"
+		]
+	},
+	"externalarticles-desc": "Предварительно загружает источник с внешних страниц"
 }

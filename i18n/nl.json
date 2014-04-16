@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Siebrand"
-        ]
-    },
-    "externalarticles-desc": "Laadt broncode van externe pagina's"
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"externalarticles-desc": "Laadt broncode van externe pagina's"
 }
