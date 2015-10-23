@@ -4,5 +4,6 @@
 			"Red Winged Duck"
 		]
 	},
-	"externalarticles-desc": "Папярэдне загружае вікітэкст з вонкавых старонак"
+	"externalarticles-desc": "Папярэдне загружае вікітэкст з вонкавых старонак",
+	"externalarticles-article-loaded": "Гэты артыкул быў аўтаматычна загружаны з $1."
 }

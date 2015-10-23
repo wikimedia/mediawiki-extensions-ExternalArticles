@@ -4,5 +4,6 @@
 			"Metalhead64"
 		]
 	},
-	"externalarticles-desc": "Ermöglicht das Vorladen von Quellen aus externen Seiten"
+	"externalarticles-desc": "Ermöglicht das Vorladen von Quellen aus externen Seiten",
+	"externalarticles-article-loaded": "Dieser Artikel wurde automatisch von $1 geladen."
 }

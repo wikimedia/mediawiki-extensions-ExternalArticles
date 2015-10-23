@@ -4,5 +4,6 @@
 			"Bjankuloski06"
 		]
 	},
-	"externalarticles-desc": "Претвчитува извор од надворешни страници"
+	"externalarticles-desc": "Претвчитува извор од надворешни страници",
+	"externalarticles-article-loaded": "Статијава е автоматски вчитана од $1."
 }

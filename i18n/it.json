@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gianfranco"
+			"Gianfranco",
+			"Beta16"
 		]
 	},
-	"externalarticles-desc": "Precarica il codice sorgente da pagine esterne"
+	"externalarticles-desc": "Precarica il codice sorgente da pagine esterne",
+	"externalarticles-article-loaded": "Questa voce è stata caricata automaticamente da $1."
 }

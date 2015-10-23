@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki"
+			"Shirayuki",
+			"Sujiniku"
 		]
 	},
-	"externalarticles-desc": "外部ページのソースを先読みする"
+	"externalarticles-desc": "外部ページのソースを先読みする",
+	"externalarticles-article-loaded": "この記事は自動的に $1 からロードされます。"
 }
