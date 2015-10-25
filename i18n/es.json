@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fitoschido"
+			"Fitoschido",
+			"Macofe"
 		]
 	},
-	"externalarticles-desc": "Precarga código fuente proveniente de páginas externas"
+	"externalarticles-desc": "Precarga código fuente proveniente de páginas externas",
+	"externalarticles-article-loaded": "Este artículo se ha cargado automáticamente a partir de $1."
 }

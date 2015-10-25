@@ -4,5 +4,6 @@
 			"Robby"
 		]
 	},
-	"externalarticles-desc": "Lueden am Viraus vu Quelle vun externe Säiten"
+	"externalarticles-desc": "Lueden am Viraus vu Quelle vun externe Säiten",
+	"externalarticles-article-loaded": "Dësen Artikel gouf automatesch vu(n) $1 gelueden."
 }

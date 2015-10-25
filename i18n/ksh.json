@@ -4,5 +4,6 @@
 			"Purodha"
 		]
 	},
-	"externalarticles-desc": "Quälletäxte vun Sigge vun ußerhallef vöraf lahde."
+	"externalarticles-desc": "Quälletäxte vun Sigge vun ußerhallef vöraf lahde.",
+	"externalarticles-article-loaded": "Heh di Sigg wood automattesch vun/vum $1 jelahde. <!-- https://translatewiki.net/wiki/Thread:Translating_talk:MediaWiki/About_MediaWiki:Externalarticles-article-loaded/ksh  -->"
 }

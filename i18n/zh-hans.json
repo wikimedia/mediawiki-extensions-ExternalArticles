@@ -4,5 +4,6 @@
 			"Liuxinyu970226"
 		]
 	},
-	"externalarticles-desc": "从外部页面预加载源"
+	"externalarticles-desc": "从外部页面预加载源",
+	"externalarticles-article-loaded": "此条目已从$1自动加载。"
 }
