@@ -4,5 +4,6 @@
 			"V.narsikar"
 		]
 	},
-	"externalarticles-desc": "बाह्य पानांवरील स्रोत पूर्वभारण करते"
+	"externalarticles-desc": "बाह्य पानांवरील स्रोत पूर्वभारण करते",
+	"externalarticles-article-loaded": "हा लेख $1 वरुन स्वयंचलितरित्या प्रभारित केल्या गेला आहे."
 }
