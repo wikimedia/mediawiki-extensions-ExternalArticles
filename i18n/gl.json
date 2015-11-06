@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Elisardojm"
 		]
 	},
-	"externalarticles-desc": "Precarga a fonte desde páxinas externas"
+	"externalarticles-desc": "Precarga a fonte desde páxinas externas",
+	"externalarticles-article-loaded": "Este artigo foi cargado automaticamente a partir de $1."
 }
