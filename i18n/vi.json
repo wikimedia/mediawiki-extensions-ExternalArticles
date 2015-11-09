@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Minh Nguyen"
+			"Minh Nguyen",
+			"Nguyên Lê"
 		]
 	},
-	"externalarticles-desc": "Tải trước mã nguồn từ trang bên ngoài"
+	"externalarticles-desc": "Tải trước mã nguồn từ trang bên ngoài",
+	"externalarticles-article-loaded": "Nội dung bài viết này được lấy tự động từ $1."
 }
