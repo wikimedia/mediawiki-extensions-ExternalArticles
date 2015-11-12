@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lloffiwr"
+			"Lloffiwr",
+			"Robin Owain"
 		]
 	},
-	"externalarticles-desc": "Yn gosod testun ar ffurf cystrawen wici yn y blwch golygu wrth ei fewnforio o dudalennau allanol."
+	"externalarticles-desc": "Yn gosod testun ar ffurf cystrawen wici yn y blwch golygu wrth ei fewnforio o dudalennau allanol.",
+	"externalarticles-article-loaded": "Llwythwyd yr erthygl hon yn otomatig o $1."
 }
