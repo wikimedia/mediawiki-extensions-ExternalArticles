@@ -4,5 +4,6 @@
 			"Ktchankt"
 		]
 	},
-	"externalarticles-desc": "預先由出面網頁載入來源"
+	"externalarticles-desc": "預先由出面網頁載入來源",
+	"externalarticles-article-loaded": "呢篇文已經由 $1 自動載入。"
 }
