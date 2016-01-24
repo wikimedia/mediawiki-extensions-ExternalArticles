@@ -6,5 +6,6 @@
 			"Umherirrender"
 		]
 	},
-	"externalarticles-desc": "{{desc|name=External Articles|url=https://www.mediawiki.org/wiki/Extension:ExternalArticles}}\n\"source\" refers \"source wikitext code\"."
+	"externalarticles-desc": "{{desc|name=External Articles|url=https://www.mediawiki.org/wiki/Extension:ExternalArticles}}\n\"source\" refers \"source wikitext code\".",
+	"externalarticles-article-loaded": "Notifies that this page has been automatically loaded from an external site. \nParameters:\n* $1 - The URL of the external site from which the page was loaded."
 }
