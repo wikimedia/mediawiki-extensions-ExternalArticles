@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Andriykopanytsia"
+			"Andriykopanytsia",
+			"Piramidion"
 		]
 	},
-	"externalarticles-desc": "Попередньо завантажує джерело від зовнішніх сторінок"
+	"externalarticles-desc": "Попередньо завантажує джерело від зовнішніх сторінок",
+	"externalarticles-article-loaded": "Ця стаття була автоматично завантажена із $1."
 }
