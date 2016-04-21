@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yona b"
+			"Yona b",
+			"Guycn2"
 		]
 	},
-	"externalarticles-desc": "טעינת דף מקור ודפים חיצוניים"
+	"externalarticles-desc": "טעינת דף מקור ודפים חיצוניים",
+	"externalarticles-article-loaded": "ערך זה נטען באופן אוטומטי מ־$1."
 }
