@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Hamilton Abreu"
 		]
 	},
+	"externalarticles-desc": "Pré-carrega o texto de páginas externas",
 	"externalarticles-article-loaded": "Este artigo foi carregado automaticamente a partir de $1."
 }
