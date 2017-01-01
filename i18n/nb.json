@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"externalarticles-desc": "Forhåndslaster kilde fra eksterne sider",
+	"externalarticles-article-loaded": "Denne artikkelen har automatisk blitt lastet fra $1."
+}
