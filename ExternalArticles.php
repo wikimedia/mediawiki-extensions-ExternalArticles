@@ -23,7 +23,7 @@
  *
  * @ingroup Extensions
  * @author Nathan Perry <externalarticles@nateperry.org>
- * @author Alvinos http://www.mediawiki.org/wiki/User:Alvinos
+ * @author Alvinos https://www.mediawiki.org/wiki/User:Alvinos
  * @author Sam Wilson <sam@samwilson.id.au>
  * @link http://www.nateperry.org/wiki/External_Articles
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License
@@ -51,7 +51,7 @@ $wgExtensionCredits['other'][] = array(
 	'descriptionmsg' => 'externalarticles-desc',
 	'version' => '0.2.0', // version date 2014-03-31
 	'author' => array( 'Nathan Perry', 'Alvinos', 'Sam Wilson' ),
-	'url' => 'http://www.mediawiki.org/wiki/Extension:ExternalArticles'
+	'url' => 'https://www.mediawiki.org/wiki/Extension:ExternalArticles'
 );
 $wgExtensionMessagesFiles['ExternalArticles'] = dirname( __FILE__ ) . '/ExternalArticles.i18n.php';
 $wgHooks['EditFormPreloadText'][] = 'ExternalArticles_EditFormPreloadText';
@@ -64,7 +64,7 @@ $wgExtensionMessagesFiles['ExternalArticles'] = __DIR__ . '/ExternalArticles.i18
 if ( !isset( $eagRules ) || is_null( $eagRules ) ) {
 	$eagRules = array();
 	$eagRules['onpreload'] = true;
-	$eagRules['url'] = 'http://en.wikipedia.org/w/index.php?title=';
+	$eagRules['url'] = 'https://en.wikipedia.org/w/index.php?title=';
 
 	// @todo: remove assumption of English.
 	$eagRules['rule'] = '/^Template:.*$/'; // http://us3.php.net/manual/en/function.preg-match.php
