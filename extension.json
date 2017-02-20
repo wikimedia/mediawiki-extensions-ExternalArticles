@@ -1,0 +1,24 @@
+{
+	"name": "ExternalArticles",
+	"version": "0.3.0",
+	"author": [
+		"Nathan Perry",
+		"Alvinos",
+		"Sam Wilson"
+	],
+	"url": "http://www.mediawiki.org/wiki/Extension:ExternalArticles",
+	"descriptionmsg": "externalarticles-desc",
+	"type": "extension",
+	"AutoloadClasses": {
+		"MediaWiki\\Extensions\\ExternalArticles\\Hooks": "src/Hooks.php"
+	},
+	"MessagesDirs": {
+		"ExternalArticles": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"EditFormPreloadText": "MediaWiki\\Extensions\\ExternalArticles\\Hooks::onEditFormPreloadText"
+	},
+	"manifest_version": 1
+}

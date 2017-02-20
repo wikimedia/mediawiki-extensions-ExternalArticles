@@ -1,3 +1,6 @@
+== 2017-02-21 version 0.3.0 ==
+* Switch to use the extension registration system (and therefore increase MediaWiki version requirement to 1.24).
+
 == 2013-05-31 version 0.1.4 ==
 * Updated to use the MWHttpRequest class (increasing the MediaWiki version
   requirement to 1.17 when this class was introduced).
