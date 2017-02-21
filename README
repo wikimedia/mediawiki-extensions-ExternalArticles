@@ -1,6 +1,6 @@
 ExternalArticles
 ----------------
 
-A MediaWiki extension to automatically fetch article text from external wikis.
+A MediaWiki extension for loading page text from external sources
 
 https://www.mediawiki.org/wiki/Extension:ExternalArticles

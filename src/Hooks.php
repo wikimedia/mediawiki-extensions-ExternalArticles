@@ -19,24 +19,24 @@ class Hooks {
 	 * @return boolean
 	 */
 	function onEditFormPreloadText( &$text, Title &$title ) {
-		global $wgOut, $eagRules;
+		global $wgOut, $wgEagRules;
 
 		// @todo: change this so each setting is set to it's default if it is not defined.
 		// Currently, if anything is overridden, all must be defined.
-		if ( !isset( $eagRules ) || is_null( $eagRules ) ) {
-			$eagRules = [];
-			$eagRules['onpreload'] = true;
-			$eagRules['url'] = 'https://en.wikipedia.org/w/index.php?title=';
+		if ( !isset( $wgEagRules ) || is_null( $wgEagRules ) ) {
+			$wgEagRules = [];
+			$wgEagRules['onpreload'] = true;
+			$wgEagRules['url'] = 'https://en.wikipedia.org/w/index.php?title=';
 
 			// @todo: remove assumption of English.
-			$eagRules['rule'] = '/^Template:.*$/';
+			$wgEagRules['rule'] = '/^Template:.*$/';
 		} else {
-			// @todo: validate $eagRules URL's, etc...
+			// @todo: validate $wgEagRules URL's, etc...
 		}
 
 		$pagename = $title->getPrefixedURL();
-		$url = $eagRules['url'] . $pagename . '&action=raw';
-		$ismatch = preg_match( $eagRules['rule'], $pagename ) > 0;
+		$url = $wgEagRules['url'] . $pagename . '&action=raw';
+		$ismatch = preg_match( $wgEagRules['rule'], $pagename ) > 0;
 
 		if ( defined( 'EXTERNALARTICLES_DEBUG' ) ) {
 			if ( $ismatch ) {
@@ -46,7 +46,7 @@ class Hooks {
 			}
 		}
 
-		if ( $eagRules['onpreload'] && $ismatch && empty( $text ) ) {
+		if ( $wgEagRules['onpreload'] && $ismatch && empty( $text ) ) {
 			$options = [
 				'followRedirects' => true,
 			];

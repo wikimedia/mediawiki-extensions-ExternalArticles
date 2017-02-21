@@ -1,6 +1,6 @@
 {
 	"name": "ExternalArticles",
-	"version": "0.3.0",
+	"version": "0.4.0",
 	"author": [
 		"Nathan Perry",
 		"Alvinos",
@@ -10,7 +10,8 @@
 	"descriptionmsg": "externalarticles-desc",
 	"type": "extension",
 	"AutoloadClasses": {
-		"MediaWiki\\Extensions\\ExternalArticles\\Hooks": "src/Hooks.php"
+		"MediaWiki\\Extensions\\ExternalArticles\\Hooks": "src/Hooks.php",
+		"MediaWiki\\Extensions\\ExternalArticles\\TextFileImporter": "src/TextFileImporter.php"
 	},
 	"MessagesDirs": {
 		"ExternalArticles": [
