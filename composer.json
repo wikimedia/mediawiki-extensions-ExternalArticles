@@ -3,7 +3,10 @@
 	"description": "A MediaWiki extension for loading page text from external sources",
 	"type": "mediawiki-extension",
 	"license": "GPL-3.0",
-	"keywords": ["importing", "MediaWiki"],
+	"keywords": [
+		"importing",
+		"MediaWiki"
+	],
 	"support": {
 		"issues": "https://phabricator.wikimedia.org",
 		"irc": "irc://irc.freenode.net/mediawiki",
@@ -11,7 +14,7 @@
 	},
 	"require-dev": {
 		"jakub-onderka/php-parallel-lint": "^0.9",
-		"mediawiki/mediawiki-codesniffer": "^0.7",
+		"mediawiki/mediawiki-codesniffer": "^0.9",
 		"jakub-onderka/php-console-highlighter": "0.3.2"
 	},
 	"scripts": {
