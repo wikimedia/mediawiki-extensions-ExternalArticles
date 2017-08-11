@@ -16,7 +16,7 @@ class Hooks {
 	 * @global array $eagRules ExternalArticles configuration array
 	 * @param string &$text Text with which to prefill the edit form
 	 * @param Title &$title Title of the new page
-	 * @return boolean
+	 * @return bool
 	 */
 	function onEditFormPreloadText( &$text, Title &$title ) {
 		global $wgOut, $wgEagRules;

@@ -22,7 +22,7 @@ class TextFileImporter {
 	/**
 	 * Import text files from a directory.
 	 * @param string $dir The directory to import from.
-	 * @param boolean $watch Whether to continue to watch the files for changes.
+	 * @param bool $watch Whether to continue to watch the files for changes.
 	 * @throws Exception If the directory does not exist.
 	 */
 	public function __construct( $dir, $watch ) {
@@ -30,7 +30,7 @@ class TextFileImporter {
 			throw new Exception( "'$dir' is not a directory" );
 		}
 		$this->dir = realpath( $dir );
-		$this->watch = (boolean)$watch && function_exists( 'inotify_init' );
+		$this->watch = (bool)$watch && function_exists( 'inotify_init' );
 		if ( $this->watch ) {
 			$this->inotify = inotify_init();
 		}
@@ -73,7 +73,7 @@ class TextFileImporter {
 	/**
 	 * Import a single file.
 	 * @param string $file Full filesystem path to the file to import.
-	 * @return boolean
+	 * @return bool
 	 */
 	protected function importFile( $file ) {
 		// Construct the page name from the last components of the file path.
