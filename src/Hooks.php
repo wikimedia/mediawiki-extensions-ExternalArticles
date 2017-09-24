@@ -3,7 +3,6 @@
 namespace MediaWiki\Extensions\ExternalArticles;
 
 use MWHttpRequest;
-use OutputPage;
 use Title;
 
 class Hooks {
