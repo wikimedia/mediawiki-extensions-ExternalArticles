@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Cwlin0416"
+			"Cwlin0416",
+			"Kly"
 		]
 	},
-	"externalarticles-desc": "預先載入來源自外部頁面"
+	"externalarticles-desc": "預先載入來源自外部頁面",
+	"externalarticles-article-loaded": "此條目已從 $1 自動載入。"
 }
