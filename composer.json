@@ -2,7 +2,7 @@
 	"name": "samwilson/mediawiki-extensions-external-articles",
 	"description": "A MediaWiki extension for loading page text from external sources",
 	"type": "mediawiki-extension",
-	"license": "GPL-3.0",
+	"license": "GPL-3.0-only",
 	"keywords": [
 		"importing",
 		"MediaWiki"
