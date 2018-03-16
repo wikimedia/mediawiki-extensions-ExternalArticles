@@ -3,9 +3,6 @@
 	<rule ref="./vendor/mediawiki/mediawiki-codesniffer/MediaWiki">
 		<exclude name="Squiz.Scope.MethodScope.Missing" />
 	</rule>
-	<rule ref="MediaWiki.Files.ClassMatchesFilename.WrongCase">
-		<exclude-pattern>*/maintenance/*</exclude-pattern>
-	</rule>
 	<file>.</file>
 	<arg name="extensions" value="php"/>
 	<arg name="encoding" value="UTF-8"/>
