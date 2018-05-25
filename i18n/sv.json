@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ainali"
+			"Ainali",
+			"WikiPhoenix"
 		]
 	},
-	"externalarticles-desc": "Förladdar källtext från externa sidor"
+	"externalarticles-desc": "Förladdar källtext från externa sidor",
+	"externalarticles-article-loaded": "Denna artikel har lästs in automatiskt från $1."
 }
