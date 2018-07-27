@@ -11,13 +11,11 @@ class Hooks {
 	 * Preload text from a remote wiki into the edit form. Called when edit page for
 	 * a new article is shown.
 	 *
-	 * @global OutputPage $wgOut OutputPage object for HTTP response
-	 * @global array $eagRules ExternalArticles configuration array
 	 * @param string &$text Text with which to prefill the edit form
 	 * @param Title &$title Title of the new page
 	 * @return bool
 	 */
-	function onEditFormPreloadText( &$text, Title &$title ) {
+	public function onEditFormPreloadText( &$text, Title &$title ) {
 		global $wgOut, $wgEagRules;
 
 		// @todo: change this so each setting is set to it's default if it is not defined.
