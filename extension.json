@@ -9,6 +9,7 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:ExternalArticles",
 	"descriptionmsg": "externalarticles-desc",
 	"type": "extension",
+	"license-name": "GPL-3.0-only",
 	"AutoloadClasses": {
 		"MediaWiki\\Extensions\\ExternalArticles\\Hooks": "src/Hooks.php",
 		"MediaWiki\\Extensions\\ExternalArticles\\TextFileImporter": "src/TextFileImporter.php"
