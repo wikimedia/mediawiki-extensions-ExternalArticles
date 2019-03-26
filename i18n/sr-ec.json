@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"BadDog"
 		]
 	},
-	"externalarticles-desc": "Претходно учитава извор са спољних страница",
+	"externalarticles-desc": "Унапред учитава извор са спољних страница",
 	"externalarticles-article-loaded": "Овај чланак је аутоматски учитан са $1."
 }
