@@ -37,9 +37,9 @@ class Hooks {
 
 		if ( defined( 'EXTERNALARTICLES_DEBUG' ) ) {
 			if ( $ismatch ) {
-				$wgOut->addWikiText( "URL: $url<br />" );
+				$wgOut->addWikiTextAsInterface( "URL: $url<br />" );
 			} else {
-				$wgOut->addWikiText( "Page title does not match rule.<br />" );
+				$wgOut->addWikiTextAsInterface( "Page title does not match rule.<br />" );
 			}
 		}
 
@@ -51,7 +51,7 @@ class Hooks {
 			$status = $httpRequest->execute();
 			if ( !$status->isOK() ) {
 				if ( defined( 'EXTERNALARTICLES_DEBUG' ) ) {
-					$wgOut->addWikiText( "Failed to fetch external page: " . $status->getWikiText() );
+					$wgOut->addWikiTextAsInterface( "Failed to fetch external page: " . $status->getWikiText() );
 				}
 
 				return false;

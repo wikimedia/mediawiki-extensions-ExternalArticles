@@ -10,6 +10,9 @@
 	"descriptionmsg": "externalarticles-desc",
 	"type": "extension",
 	"license-name": "GPL-3.0-only",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
 	"AutoloadClasses": {
 		"MediaWiki\\Extensions\\ExternalArticles\\Hooks": "src/Hooks.php",
 		"MediaWiki\\Extensions\\ExternalArticles\\TextFileImporter": "src/TextFileImporter.php"
