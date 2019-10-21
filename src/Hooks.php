@@ -15,7 +15,7 @@ class Hooks {
 	 * @param Title &$title Title of the new page
 	 * @return bool
 	 */
-	public function onEditFormPreloadText( &$text, Title &$title ) {
+	public static function onEditFormPreloadText( &$text, Title &$title ) {
 		global $wgOut, $wgEagRules;
 
 		// @todo: change this so each setting is set to it's default if it is not defined.
