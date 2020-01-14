@@ -20,7 +20,7 @@ class Hooks {
 
 		// @todo: change this so each setting is set to it's default if it is not defined.
 		// Currently, if anything is overridden, all must be defined.
-		if ( !isset( $wgEagRules ) || is_null( $wgEagRules ) ) {
+		if ( !isset( $wgEagRules ) || $wgEagRules === null ) {
 			$wgEagRules = [];
 			$wgEagRules['onpreload'] = true;
 			$wgEagRules['url'] = 'https://en.wikipedia.org/w/index.php?title=';
