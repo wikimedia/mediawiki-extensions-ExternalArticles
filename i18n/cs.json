@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mormegil"
+			"Mormegil",
+			"Jaroslav Cerny"
 		]
 	},
-	"externalarticles-desc": "Přednačítá zdrojový text z externích stránek"
+	"externalarticles-desc": "Přednačítá zdrojový text z externích stránek",
+	"externalarticles-article-loaded": "Tento článek byl automaticky načten z $1."
 }
