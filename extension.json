@@ -14,8 +14,8 @@
 		"MediaWiki": ">= 1.32.0"
 	},
 	"AutoloadClasses": {
-		"MediaWiki\\Extensions\\ExternalArticles\\Hooks": "src/Hooks.php",
-		"MediaWiki\\Extensions\\ExternalArticles\\TextFileImporter": "src/TextFileImporter.php"
+		"MediaWiki\\Extension\\ExternalArticles\\Hooks": "src/Hooks.php",
+		"MediaWiki\\Extension\\ExternalArticles\\TextFileImporter": "src/TextFileImporter.php"
 	},
 	"MessagesDirs": {
 		"ExternalArticles": [
@@ -23,7 +23,7 @@
 		]
 	},
 	"Hooks": {
-		"EditFormPreloadText": "MediaWiki\\Extensions\\ExternalArticles\\Hooks::onEditFormPreloadText"
+		"EditFormPreloadText": "MediaWiki\\Extension\\ExternalArticles\\Hooks::onEditFormPreloadText"
 	},
 	"manifest_version": 1
 }

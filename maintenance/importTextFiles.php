@@ -1,6 +1,6 @@
 <?php
 
-namespace MediaWiki\Extensions\ExternalArticles;
+namespace MediaWiki\Extension\ExternalArticles;
 
 use Maintenance;
 
