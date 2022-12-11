@@ -2,7 +2,7 @@
 
 namespace MediaWiki\Extension\ExternalArticles;
 
-use MWHttpRequest;
+use MediaWiki\MediaWikiServices;
 use Title;
 
 class Hooks {
@@ -47,7 +47,7 @@ class Hooks {
 			$options = [
 				'followRedirects' => true,
 			];
-			$httpRequest = MWHttpRequest::factory( $url, $options );
+			$httpRequest = MediaWikiServices::getInstance()->getHttpRequestFactory()->create( $url, $options );
 			$status = $httpRequest->execute();
 			if ( !$status->isOK() ) {
 				if ( defined( 'EXTERNALARTICLES_DEBUG' ) ) {
