@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"McDutchie",
 			"Siebrand"
 		]
 	},
-	"externalarticles-desc": "Laadt broncode van externe pagina's"
+	"externalarticles-desc": "Laadt broncode van externe pagina's",
+	"externalarticles-article-loaded": "Dit artikel is automatisch geladen vanaf $1."
 }
