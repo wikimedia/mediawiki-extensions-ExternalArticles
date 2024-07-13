@@ -5,8 +5,8 @@ namespace MediaWiki\Extension\ExternalArticles;
 use DirectoryIterator;
 use Exception;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Revision\SlotRecord;
 use RecentChange;
-use Revision;
 use Title;
 use User;
 use WikiRevision;
@@ -95,20 +95,21 @@ class TextFileImporter {
 
 		$exists = $title->exists();
 		$oldRevID = $title->getLatestRevID();
-		$oldRev = $oldRevID ? Revision::newFromId( $oldRevID ) : null;
+		$revLookup = MediaWikiServices::getInstance()->getRevisionLookup();
+		$oldRev = $oldRevID ? $revLookup->getRevisionById( $oldRevID ) : null;
 		$actualTitle = $title->getPrefixedDBkey();
 
 		$text = file_get_contents( $file );
 
-		$rev = new WikiRevision( MediaWikiServices::getInstance()->getMainConfig() );
-		$rev->setText( rtrim( $text ) );
+		$rev = new WikiRevision();
 		$rev->setTitle( $title );
+		$rev->setText( rtrim( $text ) );
 		$user = User::newSystemUser( 'Maintenance script', [ 'steal' => true ] );
 		$rev->setUserObj( $user );
 		$rev->setComment( 'Imported by ExternalArticles extension' );
 		$rev->setTimestamp( wfTimestampNow() );
 
-		if ( $exists && $rev->getContent()->equals( $oldRev->getContent() ) ) {
+		if ( $exists && $rev->getContent( SlotRecord::MAIN )->equals( $oldRev->getContent( SlotRecord::MAIN ) ) ) {
 			echo "$actualTitle does not need to be updated\n";
 			return false;
 		}
@@ -128,7 +129,7 @@ class TextFileImporter {
 		// Create the RecentChanges entry if necessary
 		if ( $exists ) {
 			if ( is_object( $oldRev ) ) {
-				$oldContent = $oldRev->getContent();
+				$oldContent = $oldRev->getContent( SlotRecord::MAIN );
 				RecentChange::notifyEdit(
 					$rev->getTimestamp(),
 					$title,
