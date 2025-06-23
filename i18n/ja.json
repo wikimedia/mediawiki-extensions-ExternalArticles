@@ -6,5 +6,5 @@
 		]
 	},
 	"externalarticles-desc": "外部ページのソースを先読みする",
-	"externalarticles-article-loaded": "この記事は自動的に $1 からロードされます。"
+	"externalarticles-article-loaded": "この記事は自動的に $1 から読み込まれます。"
 }
