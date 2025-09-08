@@ -36,9 +36,6 @@ class TextFileImporter {
 		}
 	}
 
-	/**
-	 *
-	 */
 	public function import() {
 		$topLevel = new DirectoryIterator( $this->dir );
 		foreach ( $topLevel as $file ) {
