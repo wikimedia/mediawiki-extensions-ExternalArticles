@@ -3,7 +3,7 @@
 namespace MediaWiki\Extension\ExternalArticles;
 
 use MediaWiki\MediaWikiServices;
-use Title;
+use MediaWiki\Title\Title;
 
 class Hooks {
 

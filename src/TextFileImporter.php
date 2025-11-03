@@ -6,8 +6,8 @@ use DirectoryIterator;
 use Exception;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\SlotRecord;
+use MediaWiki\Title\Title;
 use RecentChange;
-use Title;
 use User;
 use WikiRevision;
 
